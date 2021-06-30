@@ -1,21 +1,26 @@
-# Security Policy
+# Política de segurança
 
-## Supported Versions
+## Versões Suportadas
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Estamos mostrando quais versões são compatíveis com a operação do nosso site,
+todas as operações podem mudar se houver violações de segurança e privacidade.
 
-| Version | Supported          |
+### Visualização e criação de versões por meio do WordPress
+
+| Versão  | Suportado          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 5.7.2   | :white_check_mark: |
+| 5.7.1   | :white_check_mark: |
+| 5.7.0   | :white_check_mark: |
+| 5.6.4   | :white_check_mark: |
+| 5.6.3   | :white_check_mark: |
+| 5.6.2   | :white_check_mark: |
+| 5.6.1   | :white_check_mark: |
+| < 5.6   | :white_check_mark: |
 
-## Reporting a Vulnerability
+## Relatando uma vulnerabilidade
 
-Use this section to tell people how to report a vulnerability.
+Caso encontre alguma falha, gostaríamos que me contatasse imediatamente para correção imediata, estou sempre melhorando cada vez mais com a contribuição de todos.
+Mande um comunicado pelo nosso email: membership.actuallydev@gmail.com
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Além disso, estamos sempre fazendo atualizações que estamos ficando cada vez melhores, então sempre verifique se você tem alguma versão quebrada e nos informe.
