@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charSet="utf-8" />
+    <title>GitHub Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="alternate icon" type="image/png" href="/assets/images/site/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/site/favicon.svg" />
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY" />
+    <meta name="csrf-token" content="IxBOWJji-ERqugnewUpuaZ5aX2Mxf15oSnCM" />
+    <link rel="alternate" hrefLang="en" href="https://docs.github.com/en" />
+    <link rel="alternate" hrefLang="zh-Hans" href="https://docs.github.com/cn" />
+    <link rel="alternate" hrefLang="ja" href="https://docs.github.com/ja" />
+    <link rel="alternate" hrefLang="es" href="https://docs.github.com/es" />
+    <link rel="alternate" hrefLang="pt" href="https://docs.github.com/pt" />
+    <link rel="alternate" hrefLang="de" href="https://docs.github.com/de" />
+    <meta name="next-head-count" content="13" />
+    <link rel="preload" href="/_next/static/css/7610f6a2ca65edcbbbe8.css" as="style" />
+    <link rel="stylesheet" href="/_next/static/css/7610f6a2ca65edcbbbe8.css" data-n-g="" /><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-a54b4f32bdc1ef890ddd.js"></script>
+    <script src="/_next/static/chunks/webpack-377d9957422d331503bc.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-92300432a1172ef1338b.js" defer=""></script>
+    <script src="/_next/static/chunks/main-9fba886f1a0d36fd1a02.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-802552640b7d3567343c.js" defer=""></script>
+    <script src="/_next/static/chunks/0e226fb0-03c39198cea09d2044eb.js" defer=""></script>
+    <script src="/_next/static/chunks/931-343c5f4de33335080430.js" defer=""></script>
+    <script src="/_next/static/chunks/674-9fd57f3c5f092d88ad11.js" defer=""></script>
+    <script src="/_next/static/chunks/227-b2f60211d9f415858289.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/index-f6a7e79d49dee98b2144.js" defer=""></script>
+    <script src="/_next/static/hDw6HseYpO5jxN3-dIsJT/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/hDw6HseYpO5jxN3-dIsJT/_ssgManifest.js" defer=""></script>
+    <style id="__jsx-4031964419">
+        .root.jsx-4031964419 {
+            width: 286px;
+            height: 100vh;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            padding-bottom: 32px;
+        }
+    </style>
+    <style id="__jsx-437009147">
+        .root.jsx-437009147 {
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+    <style data-styled="" data-styled-version="5.3.0">
+        .kNqLJV {
+            position: relative;
+            display: inline-block;
+            padding: 6px 16px;
+            font-family: inherit;
+            font-weight: 600;
+            line-height: 20px;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border-radius: 6px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /*!sc*/
+
+        .kNqLJV:hover {
+            -webkit-text-decoration: none;
+            text-decoration: none;
+        }
+
+        /*!sc*/
+
+        .kNqLJV:focus {
+            outline: none;
+        }
+
+        /*!sc*/
+
+        .kNqLJV:disabled {
+            cursor: default;
+        }
+
+        /*!sc*/
+
+        .kNqLJV:disabled svg {
+            opacity: 0.6;
+        }
+
+        /*!sc*/
+
+        data-styled.g8[id="ButtonBase-sc-181ps9o-0"] {
+            content: "kNqLJV,"
+        }
+
+        /*!sc*/
+
+        .vyfcw {
+            color: #0366d6;
+            border: 1px solid rgba(27, 31, 35, 0.15);
+            background-color: #fafbfc;
+            box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04);
+        }
+
+        /*!sc*/
+
+        .vyfcw:hover {
+            color: #ffffff;
+            background-color: #0366d6;
+            border-color: rgba(27, 31, 35, 0.15);
+            box-shadow: 0 1px 0 rgba(27, 31, 35, 0.1);
+        }
+
+        /*!sc*/
+
+        .vyfcw:focus {
+            border-color: rgba(27, 31, 35, 0.15);
+            box-shadow: 0 0 0 3px rgba(0, 92, 197, 0.4);
+        }
+
+        /*!sc*/
+
+        .vyfcw:active {
+            color: #ffffff;
+            background-color: #035fc7;
+            box-shadow: inset 0 1px 0 rgba(5, 38, 76, 0.2);
+            border-color: rgba(27, 31, 35, 0.15);
+        }
+
+        /*!sc*/
+
+        .vyfcw:disabled {
+            color: rgba(3, 102, 214, 0.5);
+            background-color: #fafbfc;
+            border-color: rgba(27, 31, 35, 0.15);
+        }
+
+        /*!sc*/
+
+        data-styled.g12[id="ButtonOutline-sc-15gta9l-0"] {
+            content: "vyfcw,"
+        }
+
+        /*!sc*/
+
+        .hsHkEW>summary {
+            list-style: none;
+        }
+
+        /*!sc*/
+
+        .hsHkEW>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        /*!sc*/
+
+        data-styled.g52[id="Details-ssy9qz-0"] {
+            content: "hsHkEW,"
+        }
+
+        /*!sc*/
+
+        .gmJTSj {
+            position: relative;
+            display: inline-block;
+        }
+
+        /*!sc*/
+
+        data-styled.g57[id="Dropdown__StyledDetails-sc-16yoecj-0"] {
+            content: "gmJTSj,"
+        }
+
+        /*!sc*/
+
+        .Iervn {
+            border: 4px solid transparent;
+            margin-left: 12px;
+            border-top-color: currentcolor;
+            border-bottom-width: 0;
+            content: '';
+            display: inline-block;
+            height: 0;
+            vertical-align: middle;
+            width: 0;
+        }
+
+        /*!sc*/
+
+        data-styled.g58[id="Dropdown__DropdownCaret-sc-16yoecj-1"] {
+            content: "Iervn,"
+        }
+
+        /*!sc*/
+
+        .irDUZe {
+            background-clip: padding-box;
+            background-color: #ffffff;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+            left: 0;
+            list-style: none;
+            margin-top: 2px;
+            padding: 5px 0 5px 0 !important;
+            position: absolute;
+            top: 100%;
+            width: 160px;
+            z-index: 100;
+            right: 0;
+            left: auto;
+        }
+
+        /*!sc*/
+
+        .irDUZe::before {
+            position: absolute;
+            display: inline-block;
+            content: '';
+        }
+
+        /*!sc*/
+
+        .irDUZe::after {
+            position: absolute;
+            display: inline-block;
+            content: '';
+        }
+
+        /*!sc*/
+
+        .irDUZe::before {
+            border: 8px solid transparent;
+            border-bottom-color: #ffffff;
+        }
+
+        /*!sc*/
+
+        .irDUZe::after {
+            border: 7px solid transparent;
+            border-bottom-color: #ffffff;
+        }
+
+        /*!sc*/
+
+        .irDUZe>ul {
+            list-style: none;
+        }
+
+        /*!sc*/
+
+        .irDUZe::before {
+            top: -16px;
+            right: 9px;
+            left: auto;
+        }
+
+        /*!sc*/
+
+        .irDUZe::after {
+            top: -14px;
+            right: 10px;
+            left: auto;
+        }
+
+        /*!sc*/
+
+        data-styled.g59[id="Dropdown__DropdownMenu-sc-16yoecj-2"] {
+            content: "irDUZe,"
+        }
+
+        /*!sc*/
+
+        .jGEzhc {
+            display: block;
+            padding: 4px 10px 4px 15px;
+            overflow: hidden;
+            color: #24292e;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /*!sc*/
+
+        .jGEzhc a {
+            color: #24292e;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            display: block;
+            overflow: hidden;
+            color: #24292e;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /*!sc*/
+
+        .jGEzhc:focus,
+        .jGEzhc a:focus {
+            color: #ffffff;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            background-color: #0366d6;
+        }
+
+        /*!sc*/
+
+        .jGEzhc:hover,
+        .jGEzhc:hover a {
+            color: #ffffff;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            background-color: #0366d6;
+            outline: none;
+        }
+
+        /*!sc*/
+
+        data-styled.g60[id="Dropdown__DropdownItem-sc-16yoecj-3"] {
+            content: "jGEzhc,"
+        }
+
+        /*!sc*/
+
+        .fGhRVA ul {
+            width: unset;
+        }
+
+        /*!sc*/
+
+        data-styled.g114[id="LanguagePicker___StyledDropdown-sc-1bg5j11-0"] {
+            content: "fGhRVA,"
+        }
+
+        /*!sc*/
+
+        .cDDjaM ul {
+            width: unset;
+        }
+
+        /*!sc*/
+
+        data-styled.g115[id="HomepageVersionPicker___StyledDropdown-zwy8n-0"] {
+            content: "cDDjaM,"
+        }
+
+        /*!sc*/
+    </style>
+</head>
+
+<body data-color-mode="dark" data-dark-theme="dark_high_contrast" data-light-theme="light">
+    <div id="__next">
+        <div class="d-lg-flex">
+            <div class="jsx-4031964419 d-none d-lg-block color-bg-tertiary position-sticky top-0 overflow-y-auto root">
+                <div style="z-index:3" id="github-logo" role="banner" class="jsx-4031964419 d-flex flex-items-center p-4 position-sticky top-0 color-bg-tertiary"><a href="/pt" rel="" class="color-text-primary" aria-hidden="true" tabindex="-1"><svg aria-hidden="true" role="img" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="32" height="32" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+                    <a
+                        href="/pt" rel="" class="h4-mktg color-text-primary no-underline no-wrap pl-2 flex-auto">GitHub Docs</a>
+                </div>
+                <nav class="jsx-4031964419">
+                    <ul class="jsx-4031964419 sidebar-products mt-4">
+                        <li title="Get started" class="sidebar-product"><a href="/pt/get-started" class="f4 pl-4 pr-5 py-2 color-text-primary">Get started</a></li>
+                        <li title="GitHub.com" class="sidebar-product"><a href="/pt/github" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub.com</a></li>
+                        <li title="Enterprise administrators" class="sidebar-product"><a href="/pt/enterprise-server@3.1/admin" class="f4 pl-4 pr-5 py-2 color-text-primary">Enterprise administrators</a></li>
+                        <li title="Billing and payments" class="sidebar-product"><a href="/pt/billing" class="f4 pl-4 pr-5 py-2 color-text-primary">Billing and payments</a></li>
+                        <li title="Organizations" class="sidebar-product"><a href="/pt/organizations" class="f4 pl-4 pr-5 py-2 color-text-primary">Organizations</a></li>
+                        <li title="Code security" class="sidebar-product"><a href="/pt/code-security" class="f4 pl-4 pr-5 py-2 color-text-primary">Code security</a></li>
+                        <li title="GitHub Issues" class="sidebar-product"><a href="/pt/issues" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Issues</a></li>
+                        <li title="GitHub Actions" class="sidebar-product"><a href="/pt/actions" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Actions</a></li>
+                        <li title="GitHub Packages" class="sidebar-product"><a href="/pt/packages" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Packages</a></li>
+                        <li title="Developers" class="sidebar-product"><a href="/pt/developers" class="f4 pl-4 pr-5 py-2 color-text-primary">Developers</a></li>
+                        <li title="REST API" class="sidebar-product"><a href="/pt/rest" class="f4 pl-4 pr-5 py-2 color-text-primary">REST API</a></li>
+                        <li title="GraphQL API" class="sidebar-product"><a href="/pt/graphql" class="f4 pl-4 pr-5 py-2 color-text-primary">GraphQL API</a></li>
+                        <li title="GitHub Insights" class="sidebar-product"><a href="/pt/enterprise-server@3.1/insights" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Insights</a></li>
+                        <li title="GitHub Discussions" class="sidebar-product"><a href="/pt/discussions" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Discussions</a></li>
+                        <li title="GitHub Codespaces" class="sidebar-product"><a href="/pt/codespaces" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Codespaces</a></li>
+                        <li title="GitHub Sponsors" class="sidebar-product"><a href="/pt/sponsors" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Sponsors</a></li>
+                        <li title="Building communities" class="sidebar-product"><a href="/pt/communities" class="f4 pl-4 pr-5 py-2 color-text-primary">Building communities</a></li>
+                        <li title="GitHub Pages" class="sidebar-product"><a href="/pt/pages" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Pages</a></li>
+                        <li title="Education" class="sidebar-product"><a href="/pt/education" class="f4 pl-4 pr-5 py-2 color-text-primary">Education</a></li>
+                        <li title="GitHub Desktop" class="sidebar-product"><a href="/pt/desktop" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub Desktop</a></li>
+                        <li title="GitHub CLI(External Site)" class="sidebar-product"><a href="https://cli.github.com/manual" target="_blank" class="f4 pl-4 pr-5 py-2 color-text-primary">GitHub CLI<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></li>
+                        <li
+                            title="Atom(External Site)" class="sidebar-product"><a href="https://atom.io/docs" target="_blank" class="f4 pl-4 pr-5 py-2 color-text-primary">Atom<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></li>
+                            <li
+                                title="Electron(External Site)" class="sidebar-product"><a href="https://electronjs.org/docs" target="_blank" class="f4 pl-4 pr-5 py-2 color-text-primary">Electron<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></li>
+                                <li
+                                    title="CodeQL(External Site)" class="sidebar-product"><a href="https://codeql.github.com/docs" target="_blank" class="f4 pl-4 pr-5 py-2 color-text-primary">CodeQL<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <main class="flex-1 min-width-0">
+                <div class="border-bottom color-border-secondary no-print">
+                    <div class="header-notifications text-center f5 color-text-primary py-4 px-6 translation_notice color-bg-info">Publicamos atualizações frequentes em nossa documentação, e a tradução desta página ainda pode estar em andamento. Para obter as informações mais recentes, acesse a <a id="to-english-doc" href="/en">documentação em inglês</a>. Se houver
+                        problemas com a tradução desta página, <a href="https://github.com/contact?form[subject]=translation%20issue%20on%20docs.github.com&form[comments]=">entre em contato conosco</a>.</div>
+                    <header class="container-xl px-3 px-md-6 pt-3 pb-3 position-relative"
+                        style="z-index:2">
+                        <div class="d-none d-lg-flex flex-justify-end" data-testid="desktop-header">
+                            <div class="py-2 mr-4">
+                                <details class="Details-ssy9qz-0 Dropdown__StyledDetails-sc-16yoecj-0 hsHkEW gmJTSj HomepageVersionPicker___StyledDropdown-zwy8n-0 cDDjaM">
+                                    <summary>GitHub.com
+                                        <div class="Dropdown__DropdownCaret-sc-16yoecj-1 Iervn"></div>
+                                    </summary>
+                                    <ul direction="sw" class="Dropdown__DropdownMenu-sc-16yoecj-2 irDUZe">
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt" rel="">GitHub.com</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/enterprise-server@3.1" rel="">Enterprise Server 3.1</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/enterprise-server@3.0" rel="">Enterprise Server 3.0</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/enterprise-server@2.22" rel="">Enterprise Server 2.22</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/enterprise-server@2.21" rel="">Enterprise Server 2.21</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/github-ae@latest" rel="">GitHub AE</a></li>
+                                        <div class="pb-1"><a href="/pt/enterprise-server@3.1/admin/all-releases" rel="" class="f6 no-underline color-text-tertiary pl-3 pr-2 no-wrap">See all Enterprise releases</a></div>
+                                    </ul>
+                                </details>
+                            </div>
+                            <div class="py-2">
+                                <details class="Details-ssy9qz-0 Dropdown__StyledDetails-sc-16yoecj-0 hsHkEW gmJTSj LanguagePicker___StyledDropdown-sc-1bg5j11-0 fGhRVA">
+                                    <summary>Português do Brasil
+                                        <div class="Dropdown__DropdownCaret-sc-16yoecj-1 Iervn"></div>
+                                    </summary>
+                                    <ul direction="sw" class="Dropdown__DropdownMenu-sc-16yoecj-2 irDUZe">
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/en/" rel="">English</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/cn/" rel="">简体中文<!-- --> (<!-- -->Simplified Chinese<!-- -->)</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/ja/" rel="">日本語<!-- --> (<!-- -->Japanese<!-- -->)</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/es/" rel="">Español<!-- --> (<!-- -->Spanish<!-- -->)</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/pt/" rel="">Português do Brasil<!-- --> (<!-- -->Portuguese<!-- -->)</a></li>
+                                        <li class="Dropdown__DropdownItem-sc-16yoecj-3 jGEzhc"><a href="/de/" rel="">Deutsch<!-- --> (<!-- -->German<!-- -->)</a></li>
+                                    </ul>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="d-lg-none" data-testid="mobile-header">
+                            <div class="d-flex flex-justify-between">
+                                <div class="d-flex flex-items-center" id="github-logo-mobile" role="banner"><a href="/pt" rel="" aria-hidden="true" tabindex="-1"><svg aria-hidden="true" role="img" class="color-icon-primary" viewBox="0 0 16 16" width="32" height="32" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+                                    <a
+                                        href="/pt" rel="" class="h4-mktg color-text-primary no-underline no-wrap pl-2">GitHub Docs</a>
+                                </div>
+                                <div><button data-testid="mobile-menu-button" aria-label="Navigation Menu" class="ButtonBase-sc-181ps9o-0 ButtonOutline-sc-15gta9l-0 kNqLJV vyfcw"><svg aria-hidden="true" role="img" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg></button></div>
+                            </div>
+                            <div class="relative">
+                                <div class="width-full position-absolute left-0 right-0 color-shadow-large color-bg-primary px-3 px-md-6 pb-3 d-none">
+                                    <div class="mt-3 mb-2">
+                                        <h4 class="text-mono f5 text-normal color-text-secondary">Explorar por produto</h4>
+                                        <details class="Details-ssy9qz-0 hsHkEW details-reset">
+                                            <summary class="color-text-link" role="button" aria-label="Toggle products list">
+                                                <div id="current-product" class="d-flex flex-items-center flex-justify-between py-2"><span>All Products</span><svg aria-hidden="true" role="img" class="arrow ml-md-1" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+                                            </summary>
+                                            <div id="homepages" style="z-index:6"><a href="/pt/get-started" rel="" class="d-block py-2 Link--primary no-underline">Get started</a><a href="/pt/github" rel="" class="d-block py-2 Link--primary no-underline">GitHub.com</a><a href="/pt/enterprise-server@3.1/admin"
+                                                    rel="" class="d-block py-2 Link--primary no-underline">Enterprise administrators</a><a href="/pt/billing" rel="" class="d-block py-2 Link--primary no-underline">Billing and payments</a><a href="/pt/organizations"
+                                                    rel="" class="d-block py-2 Link--primary no-underline">Organizations</a><a href="/pt/code-security" rel="" class="d-block py-2 Link--primary no-underline">Code security</a><a href="/pt/issues" rel="" class="d-block py-2 Link--primary no-underline">GitHub Issues</a>
+                                                <a
+                                                    href="/pt/actions" rel="" class="d-block py-2 Link--primary no-underline">GitHub Actions</a><a href="/pt/packages" rel="" class="d-block py-2 Link--primary no-underline">GitHub Packages</a><a href="/pt/developers" rel="" class="d-block py-2 Link--primary no-underline">Developers</a>
+                                                    <a
+                                                        href="/pt/rest" rel="" class="d-block py-2 Link--primary no-underline">REST API</a><a href="/pt/graphql" rel="" class="d-block py-2 Link--primary no-underline">GraphQL API</a><a href="/pt/enterprise-server@3.1/insights" rel="" class="d-block py-2 Link--primary no-underline">GitHub Insights</a>
+                                                        <a
+                                                            href="/pt/discussions" rel="" class="d-block py-2 Link--primary no-underline">GitHub Discussions</a><a href="/pt/codespaces" rel="" class="d-block py-2 Link--primary no-underline">GitHub Codespaces</a><a href="/pt/sponsors" rel="" class="d-block py-2 Link--primary no-underline">GitHub Sponsors</a>
+                                                            <a
+                                                                href="/pt/communities" rel="" class="d-block py-2 Link--primary no-underline">Building communities</a><a href="/pt/pages" rel="" class="d-block py-2 Link--primary no-underline">GitHub Pages</a><a href="/pt/education" rel="" class="d-block py-2 Link--primary no-underline">Education</a>
+                                                                <a
+                                                                    href="/pt/desktop" rel="" class="d-block py-2 Link--primary no-underline">GitHub Desktop</a><a href="https://cli.github.com/manual" rel="noopener" class="d-block py-2 Link--primary no-underline">GitHub CLI<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a>
+                                                                    <a
+                                                                        href="https://atom.io/docs" rel="noopener" class="d-block py-2 Link--primary no-underline">Atom<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a>
+                                                                        <a
+                                                                            href="https://electronjs.org/docs" rel="noopener" class="d-block py-2 Link--primary no-underline">Electron<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a>
+                                                                            <a
+                                                                                href="https://codeql.github.com/docs" rel="noopener" class="d-block py-2 Link--primary no-underline">CodeQL<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a>
+                                            </div>
+                                        </details>
+                                    </div>
+                                    <div class="border-top py-2">
+                                        <details class="Details-ssy9qz-0 hsHkEW details-reset">
+                                            <summary aria-label="Toggle language list">
+                                                <div class="d-flex flex-items-center flex-justify-between py-2"><span>GitHub.com</span><svg aria-hidden="true" role="img" class="arrow ml-md-1" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+                                            </summary>
+                                            <div><a href="/pt" rel="" class="d-block py-2 Link--primary no-underline">GitHub.com</a><a href="/pt/enterprise-server@3.1" rel="" class="d-block py-2 Link--primary no-underline">Enterprise Server 3.1</a><a href="/pt/enterprise-server@3.0"
+                                                    rel="" class="d-block py-2 Link--primary no-underline">Enterprise Server 3.0</a><a href="/pt/enterprise-server@2.22" rel="" class="d-block py-2 Link--primary no-underline">Enterprise Server 2.22</a><a href="/pt/enterprise-server@2.21"
+                                                    rel="" class="d-block py-2 Link--primary no-underline">Enterprise Server 2.21</a><a href="/pt/github-ae@latest" rel="" class="d-block py-2 Link--primary no-underline">GitHub AE</a><a href="/pt/enterprise-server@3.1/admin/all-releases"
+                                                    rel="" class="f6 no-underline color-text-tertiary no-wrap">See all Enterprise releases</a></div>
+                                        </details>
+                                    </div>
+                                    <div class="border-top py-2">
+                                        <details class="Details-ssy9qz-0 hsHkEW details-reset">
+                                            <summary aria-label="Toggle language list">
+                                                <div class="d-flex flex-items-center flex-justify-between py-2"><span>Português do Brasil</span><svg aria-hidden="true" role="img" class="arrow ml-md-1" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+                                            </summary>
+                                            <div><a href="/en/" rel="" class="d-block py-2 Link--primary no-underline">English</a><a href="/cn/" rel="" class="d-block py-2 Link--primary no-underline">简体中文<!-- --> (<!-- -->Simplified Chinese<!-- -->)</a>
+                                                <a
+                                                    href="/ja/" rel="" class="d-block py-2 Link--primary no-underline">日本語
+                                                    <!-- -->(
+                                                    <!-- -->Japanese
+                                                    <!-- -->)</a><a href="/es/" rel="" class="d-block py-2 Link--primary no-underline">Español<!-- --> (<!-- -->Spanish<!-- -->)</a><a href="/pt/" rel="" class="d-block py-2 color-text-link text-underline active">Português do Brasil<!-- --> (<!-- -->Portuguese<!-- -->)</a>
+                                                    <a
+                                                        href="/de/" rel="" class="d-block py-2 Link--primary no-underline">Deutsch
+                                                        <!-- -->(
+                                                        <!-- -->German
+                                                        <!-- -->)</a>
+                                            </div>
+                                        </details>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div>
+                    <section id="landing" class="color-bg-tertiary">
+                        <div class="container-xl px-3 px-md-6 pb-6 pb-lg-9">
+                            <div class="gutter gutter-xl-spacious pt-6 pt-lg-0 d-lg-flex flex-row-reverse flex-items-center">
+                                <div class="col-lg-7"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1163.67 358.83"><g data-name="Layer 2"><g data-name="octocat header"><ellipse cx="103.6" cy="346.72" rx="87.23" ry="8.57" fill="rgba(0,0,0,.15)"></ellipse><ellipse cx="317.81" cy="346.72" rx="38.5" ry="8.57" fill="rgba(0,0,0,.15)"></ellipse><ellipse cx="551.85" cy="342.73" rx="99.97" ry="16.1" fill="rgba(0,0,0,.15)"></ellipse><path d="M1163.67 292.31l-198-4.27-20.59-61.16a142.6 142.6 0 0017.77-8c11.26-6.27 12.58-22.69 7.82-33.31-3.43-1.31-12.31-1.71-12.31-1.71a48.88 48.88 0 01.83 14.71c-.65 5-12.33 11-18.94 14l-24-71.34c3.63-2.07 39.84-43.64 39.84-43.64h16.21l69.46 78.37 22.9-11.8z" fill="rgba(0,0,0,.1)"></path><path d="M970.65 185.57s10.72 28-11.92 36.3-94.37 32.4-82.59 43.23c26.69 24.53 127.29 27.22 127.29 27.22s-6.89-42.43-12.28-61.07z" fill="rgba(0,0,0,.15)"></path><path d="M44.62 269.6l27.87-41.35 2.51 20.5 20.43-34.62 4.77 13.24 9.57-23.23 10.76 32.26 16.8-48.74L150 228l17.65-23.89s-19 6.57-19 4.83 25.64-33.81 25.64-33.81-23.61 8.35-23.62 6.62 20-19.3 26.83-30.35 19.04-49.4 19.04-49.4 19.6 47.19 30.06 52.28c3.38-7.56 14.13-29.06 14.13-29.06l-21.29 8.9s32.08-64.05 36-78.54 3-9.51 10 3.13c4.88 10.73 10.68 45.83 28.46 65.78 16.82 15-12.08 4.32-12.08 4.32l26.18 47.5 23-42.22 13.65 32.79L365 124.46l-23 15.28s20.5-28.55 24.87-51.14 9.77-58.49 9.77-58.49l28.9 52.29S433.12 9.84 434.16 0c3.27 34.65 47 117.41 47 117.41s17-34.29 18.56-47C505 83 573.83 292.7 573.83 292.7S379.7 304.66 304 304.91s-220.81 1.26-234.19-6.1-25.19-29.21-25.19-29.21z" fill="rgba(0,0,0,.1)"></path><path d="M572.28 291.55s110.26-9.9 124-19.52" fill="none" stroke="rgba(0,0,0,.1)" stroke-miterlimit="10" stroke-width="2"></path><path d="M341 317.75s7.46-2.12 8.62 1.61S341 338 341 338s11.19-.94 11.66 1.39c-8.17 1.17-17.81 1.13-18.41 1.58s6.75-23.22 6.75-23.22z" fill="#f66a0a"></path><path d="M364.46 304.05c-.83-1.55-13 0-13 0v-7.42s9.27-2.7 9.85-4.84c1.46-5.33-9.58-1.35-11.4-1a44.57 44.57 0 00-35.19 40.73 19.71 19.71 0 00.6 7c-2.42 1.94-6.35 4.35-9.17 2.41-4.36-3 9-25.46 8.42-36-.48-8.92-7.77-29.57-26.27-29.71-14.84-.1-23.28 6-29 19s-9.33 19.69-15.39 19.1-8.77.5-13.63-8.88c.47 6.34 5.34 19.34 18.35 19s18.74-6.7 24.48-12.16 15.71-7.6 16.18-.34-5.69 25-4.76 30.81 3.5 9.13 14.09 8.81c9-.28 15.25-6.52 17.86-9.34a8 8 0 004.72 3.63 3.31 3.31 0 01.92.3c.7.42-1.48 3.56-1.78 4.32s14.15 1.34 20.84.78a3 3 0 001.93-.66 2 2 0 00-.53-2.89 5.84 5.84 0 00-3.16-.86l-11.24-.84a69 69 0 0014.64-11.55c2.14-2.21 4.27-5.12 3.49-8.11-.64-2.4-3-3.92-5.09-5.19a48.3 48.3 0 01-.13-11.89c.5-3.2 1.3-5.49 3.25-7.57 0 .07 1 9.81 3.82 11.05s12.39-4 12.39-4 1.52 3.63 1.93 3.53 2.81-5.66 1.98-7.22z" fill="#ff9c57"></path><path d="M357.94 286.54c-1.44-.78-2.2-4.89-1.1-5.38s3.88 1.1 3.82 3.42c.72-.37 2.38-.79 2.76-1.21a2.82 2.82 0 01-1.49-2.2c-.57-2.32 1.15-2.83 2-2.14s2 2.71 1.48 4.08c2.53-1.32 5.78-.66 8.19.87a11 11 0 014.66 6.92 3 3 0 00.8 1.78c1.09.86 2.74-.35 4 .11 1.09.38-.32 4.73-1.29 5.35a22.76 22.76 0 01-8.82 3.3c-2.93.43-6.1.24-8.54-1.43a11.76 11.76 0 01-3-3.12c-2.98-4.43-2.24-5.31-3.47-10.35z" fill="#ff9c57"></path><path d="M341.87 305a74.7 74.7 0 00-5.53 8.66 66.28 66.28 0 00-6.37 13 94.73 94.73 0 0111.59-6.28l-.34-.21a48.3 48.3 0 01-.13-11.89 19.87 19.87 0 01.78-3.28z" fill="#f66a0a"></path><path d="M292 345.39c-.54-5.66 13.7-18.14 4.28-20.93a1 1 0 01-.58-1.43c2.71-3.75 7.91-6.82 9.23-11.39s-1.85-8.14-6-9.15c-1.57-.38-3.7-.7-4.85-2-1.35-1.49-1.21-4-3.08-5.21-2.88-1.83-7.44.16-10 1.55-4.22 2.24-7.53 5.92-10.86 9.27-5.66 5.7-12.27 12.95-20.82 13.63-9.54.77-14.53-6.87-18.9-14 1 6.65 6 18.07 18.21 17.75 13-.33 18.74-6.7 24.48-12.16s15.71-7.6 16.18-.34-5.69 25-4.76 30.81 3.5 9.13 14.09 8.81a20.75 20.75 0 002.4-.24c-4.45.57-8.53.29-9.02-4.97z" fill="#ff7000"></path><path d="M372.76 287.42a12.1 12.1 0 013.65 4c1.84 3 4.11 4.05 7 3.43.21-1 .21-1.88-.26-2-1.3-.46-2.95.75-4-.11a3 3 0 01-.8-1.78 11 11 0 00-4.66-6.92 9.68 9.68 0 00-5.46-1.55c-.89.23-1.78.46-2.67.66h-.06c-.62.14-1.24.24-1.87.32-.65.25-1.28.53-1.9.83.12.18.25.35.38.51a17.52 17.52 0 0110.65 2.61zM303.71 288.32c7.4 9.47 8.18 22.17 6.51 34 2.34-6.33 4.58-12.9 4.33-17.35-.48-8.92-7.77-29.57-26.27-29.71h-1c6.58 2.82 12.72 8.32 16.43 13.06z" fill="#ffd1ac" opacity="0.8"></path><path d="M339.4 345.86l-5.57-.43a6.45 6.45 0 012.78 2.69 3.44 3.44 0 01.37 2.34c1.55 0 3-.09 4.18-.19a3 3 0 001.93-.66 2 2 0 00-.53-2.89 5.84 5.84 0 00-3.16-.86z" fill="#f66a0a"></path><circle cx="383.03" cy="293.13" r="1.34" fill="#2f363d"></circle><path d="M341.22 320.14c-4.77 0-9.83 5.5-11.79 7.16 10.79-7.09 14.69-3.82 15.29 1.5a8.3 8.3 0 01-.14 2.59c1.36-1.84 2.29-3.93 1.73-6.06-.64-2.4-2.6-5.19-5.09-5.19zM351.44 304.05v-6.75a3.29 3.29 0 00-2.48 2.24c-.42 1-.63 4.91 0 5.79 1.16 1.54 6.94-.33 8.8-.56a28 28 0 016.82-.12 1.7 1.7 0 00-.15-.6c-.8-1.55-12.99 0-12.99 0z" fill="#ffd1ac" opacity="0.8"></path><path d="M151 319.3s1.73 12.95 5.08 16.55 17.29 13.25 18 11.4c-6.77-8.45-14-29.49-14-29.49zM106.47 320.15a.79.79 0 00-.38.29c-.16.25 0 .57.14.82a38.26 38.26 0 013.65 8.71c.62 2.19 1.75 5.22 3.77 4.16 3.51-1.85.64-6.46 0-10.38.4 2.42 8.16-.38 10.69-4 3.24-4.61-4.46-5.29-7.26-4.59-3.61.92-7.26 3.41-10.61 4.99z" fill="#ff7000"></path><path d="M136.12 292.06c-4.66-.54-9.52-.37-13.81 1.52-4.12 1.81-7.41 5.06-10.4 8.42a12.39 12.39 0 01-3.06 2.77 8.48 8.48 0 01-3.84.91c-6.26.22-12.15-3.28-16.42-7.85s-7.24-10.18-10.43-15.56c-5.12-8.64-11.27-17.16-20.11-21.93-12.25-6.62-28.21-4.55-39.39 3.76S1 286.16 0 300.05c-.22 3.07.43 7 3.41 7.73l4.65-8.92c2.28-4.39 4.68-8.91 8.57-12s9.74-4.21 13.78-1.36c3.17 2.24 4.49 6.32 4.9 10.18s.13 7.81 1 11.59c2.19 9.19 11.16 15.56 20.43 17.38a36.12 36.12 0 0020.1-1.83c10.57-4.16 19.79-13.43 31.12-12.69 1.48 4 5.41 6.72 9.53 7.85s8.47.94 12.74.73l-5.57 6.67a56.84 56.84 0 0011.62 15.72c2.28-5.8.41-11.71-3.21-16.8a9.17 9.17 0 014.24-4.13c4.16 2.24 15.21 1.63 19.88 1-.2 3.38.51 11.21 2.67 14.55s9.17 10.35 13.16 12.51c2.52 1.36 10.25 3.16 11.4.87-9.46-4-18.88-13.73-18.84-24 0-5 4.35-8.31 4.12-12.55-.19-3.67-6.16-8-8.77-10.06a49.21 49.21 0 00-24.81-10.43z" fill="#ff9c57"></path><path d="M83.58 309.1c-3.72 0-7.56.77-10.33-2.21a25.63 25.63 0 01-2.36-3.8c-2.21-3.37-4.91-3.78-8.79-3.55-4.74.28-6.38-1.52-8.27-5.77-5.38-12-19-21.35-32.06-14.36-10 5.38-16.15 17.18-18.85 27.83a1 1 0 01-.13.27 3.51 3.51 0 00.66.27l4.65-8.92c2.28-4.39 4.68-8.91 8.57-12s9.74-4.21 13.78-1.36c3.17 2.24 4.49 6.32 4.9 10.18s.13 7.81 1 11.59c2.19 9.19 11.16 15.56 20.43 17.38a36.12 36.12 0 0020.1-1.83c7.52-3 14.36-8.49 21.76-11.18-4.64-1.98-9.64-2.56-15.06-2.54z" fill="#ff7000"></path><path d="M134 305.1c.22 0 9 5.91 8.89 8.67s-8 7.05-8 7.05 3.85-4.93 3-7.86-3.89-7.86-3.89-7.86z" fill="#ffd1ac" opacity="0.6"></path><path d="M167 307.62c-.88 3-2.56 5.8-3.31 8.95a13.46 13.46 0 002.21 11.33 16.57 16.57 0 01-.24-2.81c0-5 4.35-8.31 4.12-12.55-.1-1.6-1.28-3.31-2.78-4.92z" fill="#fb8532"></path><path d="M173 301.58c2.29-.91 4.2 1.45 2.58 7.05l2.92.07a10.53 10.53 0 01-.54-4.74 2.49 2.49 0 012.78-2.25c1.57.08 2.12 1.43 2.18 3a9 9 0 01-1 4.39 12 12 0 014.94 11.1 36.87 36.87 0 00-.7 4.52 4.07 4.07 0 002 3.82 16 16 0 002.51.56c.82.23 1.66.92 1.55 1.77-.1.7-.78 1.15-1.42 1.47a17.78 17.78 0 01-15.45.05c-4.23-2.06-7.64-6.08-8.24-10.74a11.22 11.22 0 012.52-8.51c.7-.84 2.95-1.89 3.2-2.88-1.13-1.59-2.92-7.48.17-8.68z" fill="#ff9c57"></path><circle cx="190.83" cy="330.27" r="1.33" fill="#2f363d"></circle><path d="M65.34 276.43c5.29 6 9.36 12.92 14.45 19.06a36.58 36.58 0 0019.71 12.59c.57-.08 1.13-.18 1.7-.31-5.49-.5-10.59-3.71-14.4-7.78-4.27-4.58-7.23-10.18-10.42-15.57-5.12-8.64-11.28-17.16-20.12-21.93a34.48 34.48 0 00-19.89-3.72c11.17 2.17 21.71 9.41 28.97 17.66zM152.3 301.32c4.87 2.78 8.66 6.83 12.12 11.17a22.63 22.63 0 011-3.5 43.88 43.88 0 00-8.69-7.65c-7.35-4.84-15.86-6.24-24.36-7.68l2.94 1.36c5.62 2.27 11.69 3.29 16.99 6.3z" fill="#ffd1ac" opacity="0.6"></path><path d="M631.76 266.63c-.37-1.68 78.91-92.89 85.72-99.15s67.73-78 72.14-80.45c2.68-6-6.2-11.06-10.21-8.33-3.73 7.3-67.86 83.12-73.66 89.3s-52.29 56.46-72.64 72.56c-4.4 12.23-8.47 14.29-11.61 17.84-.54 1.89.14 4.45 3.81 6.89s6.45 1.34 6.45 1.34z" fill="#f9c513"></path><path d="M768.38 104.24c-5.79 5.67-27.63 31.4-33.29 38.11-12.21 14.47-62.7 71.66-75.59 86.07-6 6.76-28.89 30.24-34.94 36.35.24.18.47.37.75.55 3.66 2.45 6.45 1.31 6.45 1.31-.37-1.68 78.91-92.89 85.72-99.15s67.73-78 72.14-80.45a5.23 5.23 0 00-.26-4.91c-6.36 7.93-13.8 15.08-20.98 22.12z" fill="#ffdf5d"></path><path d="M623.11 256.76c-.56.55-1.1 1.09-1.61 1.67-.54 1.89.14 4.45 3.81 6.89s6.45 1.31 6.45 1.31a5.82 5.82 0 011-1.6 18.86 18.86 0 00-9.65-8.27z" fill="#dbab09"></path><path d="M550.46 91.43c-3.68-12.85-14.32-17.84-18.14-18.61a1.05 1.05 0 00-1.21 1.31l4.68 17.3S526 105 526 119.32s1.47 19.8 0 24.2a29.19 29.19 0 003.3 24.94 59.9 59.9 0 0031.93 25.25" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M531.67 72.8s8.8-9.85 30.26-2.19a61.84 61.84 0 0147.6-1.61c26 9.82 33.11 25.77 33.11 25.77" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M618.45 105.68s16.22-13.9 30.13-10.93c13.13 10.16 4.63 36.42 1.54 40.28" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M629.65 104.52s11.43-6.82 13.91-4.22c2.92 3.07 1.76 19.93.77 26.24M526 119.32s1.3-18.32 11-15.19 15 23.56 25.45 26.27 48.66-9.24 62.18 2.33 7.34 25.09 5 29.72S620 178.8 620 178.8s9.62 9-10.46 15.56" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M653.63 126.54s4.62 27.2-7.44 43.64c-13 17.7-41.14 30.1-67.36 27.32" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M579.56 200.31s-1.79-8.27-9.27-8.81-25.63 11.75-35 26.16-7.74 21.09 2.77 28.87c8 5.89 27.94 10.21 46.09 8.35l21.9-2.17a3.65 3.65 0 012.27 2.7c0 1.43-3.4 11.62 2.22 12.46s6.46-3.31 6.46-7.46c4.77-2.8 15.57-9 16.07-26.64s-12.7-28.5-27.58-26.26-39 11.51-52.5 8.43M573 200.78s-7.6 8.93-7.73 15.41M592.43 210.34l-8.25-12.43M581.14 203.3l1.88 9.4" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><ellipse cx="556.11" cy="173.79" rx="2.74" ry="6.58" transform="rotate(-60 556.11 173.788)" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></ellipse><path d="M559.59 193.71s-54.21 15.29-78.83 27.52-79.06 42.92-76.8 51.5 47.9-8.09 62.59-14.6c16.5-7.32 64.43-32.57 64.43-32.57M550.81 252.08s-18.69 23.06-29.61 29.7c-10.58 6.44-39.86 21.91-42.11 26.07-3.35 6.18-7.31 27.78 14.2 38.8 9.35 4.79 31.25 6.39 40.37 1.14s8.79-7.37 7.76-8.21c-2.37-1.93-26.57 11.91-37.21 10.38" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M497.69 316.26c.78-.78 23.39-3.9 32.84 4.6 7.66 6.91 7 19.25 5.81 19.66M530.53 320.86s18.22-9.77 30.73-28.52a163.63 163.63 0 0018.3-37.13M584.18 254.88l21.52 72.91s6.34 13.52 16.79 12.73 31.37-7.94 40.22-19.66c4.39-5.81 9.65-15.81 7.46-19.29-2.43-3.86-5.66-2-7.53-1.34-2.7-1-21.3-2.52-26.71 7M615.43 266.63s16.22 34.94 23.59 46.52M647.44 168.32s40.64-21.74 55.46-26.32 28.39-9.81 35.69-1.88 1.41 24.4-3.59 30.46c-5.63 6.89-15.23 14.61-28 14.61 0 0-15.87 1.05-17.12-13.77-3.55 1.67-8.84 1.42-5.63-4 4.59-7.72 13.77-17.32 38.4-20.24" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M585.61 197.88s17.77 3.65 44-1.2 60.66-22.89 60.66-22.89" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M506.67 125.2c11.11 4.56 19.17 18 19.17 18M506.67 138.65c5.31.38 14.51 3.85 18.09 9.41" fill="none" stroke="#0366d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M628.71 179.61c7 .8 26.88 10.28 32.4 17.73" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M657.89 194a21.51 21.51 0 013.22 3.35M630.61 184.57c5.28 3.06 16 13.34 18.82 20.74" fill="none" stroke="#0366d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5"></path><ellipse cx="439.61" cy="251.44" rx="22.06" ry="3.95" transform="rotate(-30 439.609 251.433)" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></ellipse><ellipse cx="490.38" cy="223.36" rx="19.84" ry="2.87" transform="rotate(-24.91 490.415 223.372)" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></ellipse><path d="M547.55 203.76c-2.14 1.1-7.35 3.35-9.47 4.12-9.35 3.41-17.27 5.21-17.71 4s6.8-4.91 16.14-8.32a84.93 84.93 0 0116.61-4.32M591.67 280.24s2.38 3.26 4.09 2.75 2.23-12 0-18.84-5.49-9.88-6-9.83M596.22 295.67c.19.63 7.18.4 11.28 14.38s3.13 21.95 0 20.86M685.06 166.28c-10.54 0-25 11.47-24 13.33 2 3.82 20.82-1.63 20.82-1.63M622.6 197.82s31.85-11 33.08-14.24-23.11-.32-24.09.34" fill="none" stroke="#0366d6" stroke-miterlimit="10" stroke-width="2.5"></path><path d="M896.17 132c-15.3 8.93-31.95 13.81-51.19 18.39a531.88 531.88 0 01-56.63 9.76L829 103.78l55.42-23.91 23.8 36.13s-3.14 4.3-12.05 16z" fill="rgba(0,0,0,.15)"></path><path d="M947.18 210.33c-20.69 9.27-211 62-262.13 64.8l88.5-108.85h16.56c16.55 0 33.68-4.32 48.46-6.18s50.63-11 67.24-25.07c4.84-4.15 10.4-14.73 10.4-14.73l41.32 61.77s10.34 19-10.35 28.26z" fill="rgba(0,0,0,.15)"></path><path fill="#fff" d="M828.97 103.78l38.64-60.77 28.56 56.7-14.75-5.38-8.12 27-10.73-21.62-13.66 25.49.74-17.17-14.72 13.3v-13.3l-20.74 25.22 14.78-29.47z"></path><path d="M1000 314.8l12-90.94 3.88-108.63s5.13-2 11.64 1.65 8.66 8.66 8.66 8.66l-11.66 87.32 2.5 101.94-12.85 11.2z" fill="#f9c513"></path><path d="M1036.21 125.54s-2.15-5-8.66-8.66a16.82 16.82 0 00-1.71-.84c-1 8.33-.26 16.74-.21 25.14a211.94 211.94 0 01-2.07 28.48 525.32 525.32 0 00-4.46 58.51c-.18 9.9.76 19.71.92 29.6a155.26 155.26 0 01-2.12 27.56c-2 12.4-5.39 24.49-9.06 36.5l5.33 4.21 12.88-11.24-2.5-101.94z" fill="#dbab09"></path><path d="M984.5 143.78c-1.78.14-5.79 71.95-5.79 71.95l74.83 8.13 6.24-87.05z" fill="#ffea7f"></path><path fill="#f9c513" d="M1059.78 136.81l-6.24 87.05 9.36 10.48 12.02-77.36-15.14-20.17z"></path><path fill="#dbab09" d="M1007.95 196.19l-14.09-20.65 18.71-12.65v10.87l25.38-2.5-3.56 23.38-24.87-9.07-1.57 10.62z"></path><path fill="#ffd33d" d="M1005.75 192.2l-13.63-19.3 18.09-11.83v10.16l24.55-2.34-3.44 21.86-24.06-8.48-1.51 9.93z"></path><path d="M1032.94 330.7s4.65-48 2.86-54.77c-1.07 3.93-20.4 35.08-20.4 35.08v-30.43s-4.3 14-5.73 18.26c-1.43-6.45-11.45-25.78-10-23.63s1.79 22.55 0 22.55c-1.43-.35-6.8-19-12.17-25.06 2.14 2.15 3.58 17.9 5.37 25.78-.72-2.86-15.23-12.89-22.2-14.32.72 4.65 11.1 13.25 13.25 19.33s-1.44 12.89-1.44 12.89l13.25 9.91z" fill="#88929c"></path><path d="M1008.15 330.21c-.34-1 7.41-25.95 7.41-25.95s22.91-14.15 27-16.51 9.77-2 9.77-2l12.46-4.71s34.37 9.09 35.38 9.43 7.07 11.45 9.77 15.16 4 6.06 4.38 12.13l.34 6.06-18.2 19.54h-20.89s-14.82 5.73-18.19 4.72-15.5-4-19.88-7.75-29.35-10.12-29.35-10.12z" fill="#b1b7bb"></path><path d="M1053.54 289.94s-1.86-17.37 14.5-36" fill="none" stroke="#959da5" stroke-miterlimit="10" stroke-width="2"></path><circle cx="1069.05" cy="252.69" r="2.32" fill="none" stroke="#959da5" stroke-miterlimit="10" stroke-width="2"></circle><circle cx="1078.25" cy="258.52" r="2.1" fill="none" stroke="#959da5" stroke-miterlimit="10" stroke-width="2"></circle><path d="M1060.2 264.92s4.56 2.67 8.69 0a82.36 82.36 0 007.81-5.81" fill="none" stroke="#959da5" stroke-miterlimit="10" stroke-width="2"></path><path d="M1037.23 272.69a16.7 16.7 0 01-.65-7.86c.26-1.23 1.06-2.64 2.33-2.59a2.7 2.7 0 011.55.73 19.49 19.49 0 012.8 2.87 76.78 76.78 0 0114.36 26.27c-.38-4.77 2.15-9.44 5.77-12.57s8.22-4.9 12.86-6.09c1.73-.45 3.82-.73 5.07.54a3.43 3.43 0 01.66 3.39 7 7 0 01-2 2.94 35.35 35.35 0 01-6.94 4.55 104.64 104.64 0 00-14.7 10.1 3 3 0 01-1.43.79 2.53 2.53 0 01-1-.12c-9.76-2.46-16.15-13.97-18.68-22.95z" fill="#959da5" opacity="0.5"></path><path d="M1046.5 321.48a104.82 104.82 0 0117.1-13.08c4.35.88 8.29.17 11.61.67 7-6.18 15.21-13.36 22.38-19.34-8.21-2.22-32.76-8.71-32.76-8.71l-12.47 4.71s-5.73-.33-9.77 2c-3.23 1.89-18.47 11.28-24.49 15 3.8 5.78 22.41 14.27 28.4 18.75z" fill="rgba(0,0,0,.15)"></path><path fill="#dbab09" d="M978.71 215.75v6.13l84.19 12.48-9.36-10.48-74.83-8.13z"></path><path d="M940.7 114.68c.71-2.15 24.06-29.06 24.06-29.06l25.8 32.25h-4.3l11.47 12.18s-15.05 1.43-17.2-2.87c-1.48 3.1-5.69 8.47-7.5 7.87s-11.62-13.23-11.62-13.23-10 18-11.43 17.44S945 116 945 116l-5.83 5.11 3.12-5.07z" fill="#fff"></path><path d="M1097.59 289.73c-8.21-2.22-32.76-8.71-32.76-8.71l-12.47 4.71s-5.73-.33-9.77 2c-3.23 1.89-18.47 11.28-24.49 15" fill="none" stroke="#e1e4e8" stroke-miterlimit="10" stroke-width="0.5"></path><path d="M172.1 305.31c2.88-.25 1.27 4.88 2.94 5.49 1.26.45 2.87-.54 4.45.15a7.76 7.76 0 013.58 3.58c1.15 2.16 1.05 4.23.94 6.59-.14 3.14.13 6.29 3.7 7.2a4.3 4.3 0 01-1.63-3.6 36.87 36.87 0 01.7-4.52 12 12 0 00-4.94-11.1 9 9 0 001-4.39c-.06-1.57-.61-2.92-2.18-3a2.49 2.49 0 00-2.78 2.25 10.53 10.53 0 00.54 4.74l-2.92-.07c1.62-5.6-.29-8-2.58-7.05-1.46.57-1.81 2.23-1.66 4a1.88 1.88 0 01.84-.27z" fill="#ffd1ac" opacity="0.6"></path></g></g></svg></div>
+                                <div
+                                    class="col-lg-5 mt-6">
+                                    <h1 class="h1-mktg mb-3">Precisa de ajuda?</h1>
+                                    <div id="search-input-container" aria-hidden="true">
+                                        <div class="ais-SearchBox">
+                                            <form role="search" class="ais-SearchBox-form" novalidate=""><input type="search" data-testid="site-search-input" class="ais-SearchBox-input js-open" placeholder="Pesquisar tópicos, produtos..." autofocus="" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellcheck="false"
+                                                    maxLength="512" value="" /><button class="ais-SearchBox-submit" type="submit" title="Submit the search query." hidden=""></button></form>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div id="search-results-container" class=""></div>
+                            <div class="search-overlay-desktop"></div>
+                        </div>
+                </div>
+                </section>
+                <section class="container-xl pb-lg-4 my-8 px-3 px-md-6">
+                    <div class="">
+                        <h2 class="text-mono f5 text-normal color-text-secondary text-md-center mb-4">Explorar por produto</h2>
+                        <div class="d-flex flex-wrap gutter gutter-xl-spacious">
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/get-started">Get started</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/github">GitHub.com</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/enterprise-server@3.1/admin">Enterprise administrators</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/billing">Billing and payments</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/organizations">Organizations</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/code-security">Code security</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/issues">GitHub Issues</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/actions">GitHub Actions</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/packages">GitHub Packages</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/developers">Developers</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/rest">REST API</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/graphql">GraphQL API</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/enterprise-server@3.1/insights">GitHub Insights</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/discussions">GitHub Discussions</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/codespaces">GitHub Codespaces</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/sponsors">GitHub Sponsors</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/communities">Building communities</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/pages">GitHub Pages</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/education">Education</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="/pt/desktop">GitHub Desktop</a></div>
+                            <div class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="https://cli.github.com/manual" target="_blank">GitHub CLI<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></div>
+                            <div
+                                class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="https://atom.io/docs" target="_blank">Atom<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></div>
+                        <div
+                            class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="https://electronjs.org/docs" target="_blank">Electron<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></div>
+                    <div
+                        class="d-flex flex-column col-12 col-sm-6 col-lg-3 pb-4"><a class="btn-mktg flex-auto d-flex flex-items-center btn-outline-mktg btn-large-mktg ws-normal " href="https://codeql.github.com/docs" target="_blank">CodeQL<span class="ml-1"><svg aria-hidden="true" role="img" class="octicon octicon-link-external" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg></span></a></div>
+    </div>
+    </div>
+    </section>
+    <div class="px-3 px-md-6 container-xl">
+        <div class="featured-links container-xl">
+            <div class="gutter gutter-xl-spacious clearfix">
+                <div class="col-12 col-lg-6 mb-md-4 mb-lg-0 float-left">
+                    <div class="mb-4 d-flex flex-items-baseline">
+                        <h3 class="f5 text-normal text-mono underline-dashed color-text-secondary">Introdução</h3>
+                    </div>
+                    <ul class="list-style-none" data-testid="article-list">
+                        <li class="">
+                            <a href="/pt/github/getting-started-with-github/set-up-git" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Configurar o Git</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>No centro do GitHub há um sistema de controle de versões (VCS) de código aberto chamado Git. O Git é responsável por tudo relacionado ao GitHub que acontece localmente no computador.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/authenticating-to-github/connecting-to-github-with-ssh" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Conectar-se ao GitHub com SSH</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Você pode se conectar ao GitHub usando SSH.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Criar um repositório no GitHub</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Depois de criar o repositório no GitHub, você poderá personalizar as configurações e o conteúdo dele.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/writing-on-github/basic-writing-and-formatting-syntax" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Sintaxe básica de escrita e formatação no GitHub</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Crie formatação sofisticada para narração e código no GitHub com sintaxe simples.</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 float-left">
+                    <div class="mb-4 d-flex flex-items-baseline">
+                        <h3 class="f5 text-normal text-mono underline-dashed color-text-secondary">Popular</h3>
+                    </div>
+                    <ul class="list-style-none" data-testid="article-list">
+                        <li class="">
+                            <a href="/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Sobre pull requests</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>As pull requests permitem que você informe outras pessoas sobre as alterações das quais você fez push para um branch em um repositório no GitHub. Depois que uma pull request é aberta, você pode discutir e revisar as possíveis alterações com colaboradores e adicionar commits de acompanhamento antes que as alterações sofram merge no branch base.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/authenticating-to-github" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Autenticação</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Mantenha sua conta e dados protegidos com recursos como autenticação de dois fatores, SSH, e verificação de assinatura do commit.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Adicionar um projeto existente ao GitHub usando a linha de comando</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Colocar um trabalho que já existe no GitHub pode permitir que você compartilhe e colabore de muitas maneiras.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/getting-started-with-github/managing-remote-repositories" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>Gerenciar repositórios remotos</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Aprenda a trabalhar com seus repositórios locais no seu computador e repositórios remotos hospedados no GitHub.</span></p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/pt/github/working-with-github-pages" rel="" class="link-with-intro Bump-link--hover no-underline d-block py-3">
+                                <h4 class="link-with-intro-title"><span>GitHub Pages</span><span class="Bump-link-symbol">→</span></h4>
+                                <p class="jsx-437009147 root link-with-intro-intro color-text-secondary mb-0 mt-1"><span>Você pode criar um site diretamente de um repositório do GitHub.</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="mt-lg-9 py-7 px-3 px-md-6 no-print color-bg-tertiary">
+        <div class="container-xl gutter-lg-spacious clearfix">
+            <div class="col-12 col-lg-6 col-xl-4 mb-6 mb-xl-0 float-left">
+                <form class="f5" data-testid="survey-form">
+                    <h2 class="mb-1 f4">Esse documento ajudou você?<a href="/github/site-policy/github-privacy-statement" rel="" class="f6 text-normal ml-3 color-text-link" target="_blank">Política de Privacidade</a></h2><input type="text" class="d-none" name="survey-token"
+                        aria-hidden="true" />
+                    <p class="radio-group"><input type="radio" id="survey-yes" name="survey-vote" value="Y" aria-label="true" hidden="" /><label class="btn x-radio-label mr-1" for="survey-yes"><svg aria-hidden="true" role="img" class="color-text-tertiary" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M12.596 2.043c-1.301-.092-2.303.986-2.303 2.206v1.053c0 2.666-1.813 3.785-2.774 4.2a1.866 1.866 0 01-.523.131A1.75 1.75 0 005.25 8h-1.5A1.75 1.75 0 002 9.75v10.5c0 .967.784 1.75 1.75 1.75h1.5a1.75 1.75 0 001.742-1.58c.838.06 1.667.296 2.69.586l.602.17c1.464.406 3.213.824 5.544.824 2.188 0 3.693-.204 4.583-1.372.422-.554.65-1.255.816-2.05.148-.708.262-1.57.396-2.58l.051-.39c.319-2.386.328-4.18-.223-5.394-.293-.644-.743-1.125-1.355-1.431-.59-.296-1.284-.404-2.036-.404h-2.05l.056-.429c.025-.18.05-.372.076-.572.06-.483.117-1.006.117-1.438 0-1.245-.222-2.253-.92-2.941-.684-.675-1.668-.88-2.743-.956zM7 18.918c1.059.064 2.079.355 3.118.652l.568.16c1.406.39 3.006.77 5.142.77 2.277 0 3.004-.274 3.39-.781.216-.283.388-.718.54-1.448.136-.65.242-1.45.379-2.477l.05-.384c.32-2.4.253-3.795-.102-4.575-.16-.352-.375-.568-.66-.711-.305-.153-.74-.245-1.365-.245h-2.37c-.681 0-1.293-.57-1.211-1.328.026-.243.065-.537.105-.834l.07-.527c.06-.482.105-.921.105-1.25 0-1.125-.213-1.617-.473-1.873-.275-.27-.774-.455-1.795-.528-.351-.024-.698.274-.698.71v1.053c0 3.55-2.488 5.063-3.68 5.577-.372.16-.754.232-1.113.26v7.78zM3.75 20.5a.25.25 0 01-.25-.25V9.75a.25.25 0 01.25-.25h1.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25h-1.5z"></path></svg></label><input
+                            type="radio" id="survey-no" name="survey-vote" value="N" aria-label="No" hidden="" /><label class="btn x-radio-label" for="survey-no"><svg aria-hidden="true" role="img" class="color-text-tertiary" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M12.596 21.957c-1.301.092-2.303-.986-2.303-2.206v-1.053c0-2.666-1.813-3.785-2.774-4.2a1.864 1.864 0 00-.523-.13A1.75 1.75 0 015.25 16h-1.5A1.75 1.75 0 012 14.25V3.75C2 2.784 2.784 2 3.75 2h1.5a1.75 1.75 0 011.742 1.58c.838-.06 1.667-.296 2.69-.586l.602-.17C11.748 2.419 13.497 2 15.828 2c2.188 0 3.693.204 4.583 1.372.422.554.65 1.255.816 2.05.148.708.262 1.57.396 2.58l.051.39c.319 2.386.328 4.18-.223 5.394-.293.644-.743 1.125-1.355 1.431-.59.296-1.284.404-2.036.404h-2.05l.056.429c.025.18.05.372.076.572.06.483.117 1.006.117 1.438 0 1.245-.222 2.253-.92 2.942-.684.674-1.668.879-2.743.955zM7 5.082c1.059-.064 2.079-.355 3.118-.651.188-.054.377-.108.568-.16 1.406-.392 3.006-.771 5.142-.771 2.277 0 3.004.274 3.39.781.216.283.388.718.54 1.448.136.65.242 1.45.379 2.477l.05.385c.32 2.398.253 3.794-.102 4.574-.16.352-.375.569-.66.711-.305.153-.74.245-1.365.245h-2.37c-.681 0-1.293.57-1.211 1.328.026.244.065.537.105.834l.07.527c.06.482.105.922.105 1.25 0 1.125-.213 1.617-.473 1.873-.275.27-.774.456-1.795.528-.351.024-.698-.274-.698-.71v-1.053c0-3.55-2.488-5.063-3.68-5.577A3.485 3.485 0 007 12.861V5.08zM3.75 3.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h1.5a.25.25 0 00.25-.25V3.75a.25.25 0 00-.25-.25h-1.5z"></path></svg></label></p>
+                </form>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4 mb-6 mb-xl-0 float-left">
+                <div class="f5 contribution">
+                    <h2 class="f4">Ajude-nos a tornar esses documentos ótimos!</h2>
+                    <p class="color-text-secondary f6">Todos os documentos do GitHub são de código aberto. Você percebeu que algo que está errado ou não está claro? Envie um pull request.</p><a class="btn btn-outline" href="https://github.com/github/docs/edit/main/content/index.md"><svg aria-hidden="true" role="img" class="octicon mr-1" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>Faça uma contribuição</a>
+                    <p
+                        class="color-text-secondary f6 mt-2">Ou,
+                        <!-- --><a href="https://github.com/github/docs/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">aprenda como contribuir.</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-12 col-xl-4 float-left">
+                <div>
+                    <h3 class="mb-2 f4">Ainda precisa de ajuda?</h3><a id="ask-community" href="https://github.community" class="btn btn-outline mr-4 mt-2"><svg aria-hidden="true" role="img" class="octicon mr-1" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>Pergunte à comunidade do GitHub</a>
+                    <a
+                        id="contact-us" href="https://support.github.com/contact" class="btn btn-outline mt-2"><svg aria-hidden="true" role="img" class="octicon mr-1" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>Entrar
+                        em contato com o suporte</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-6 text-small">
+        <div class="container-xl d-flex px-3 px-md-6">
+            <ul class="d-flex list-style-none flex-wrap flex-justify-center flex-xl-justify-start">
+                <li class="d-flex mr-xl-3 color-text-secondary"><svg aria-hidden="true" role="img" class="mr-2 mr-xl-3" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg><span>© <!-- -->2021<!-- --> GitHub, Inc.</span></li>
+                <li
+                    class="ml-3"><a href="/github/site-policy/github-terms-of-service">Termos</a></li>
+                    <li class="ml-3"><a href="/github/site-policy/github-privacy-statement">Privacidade<!-- --> </a></li>
+                    <li class="ml-3"><a href="https://github.com/security">Segurança</a></li>
+                    <li class="ml-3"><a href="https://www.githubstatus.com/">Status</a></li>
+                    <li class="ml-3"><a href="/">Ajuda</a></li>
+                    <li class="ml-3"><a href="https://support.github.com">Contato com a GitHub</a></li>
+                    <li class="ml-3"><a href="https://github.com/pricing">Preços</a></li>
+                    <li class="ml-3"><a href="/developers">API de desenvolvedor</a></li>
+                    <li class="ml-3"><a href="https://services.github.com/">Treinamentos</a></li>
+                    <li class="ml-3"><a href="https://github.com/about">Sobre</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="position-fixed bottom-3 right-3 transition-200 opacity-0"><button class="tooltipped tooltipped-n tooltipped-no-delay color-bg-info-inverse color-text-inverse circle border-0" style="width:40px;height:40px" aria-label="Scroll to top"><svg aria-hidden="true" role="img" class="octicon octicon-chevron-up" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button></div>
+    </main>
+    </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "mainContext": {
+                        "breadcrumbs": [],
+                        "activeProducts": [{
+                            "id": "get-started",
+                            "name": "Get started",
+                            "href": "/get-started",
+                            "dir": "content/get-started",
+                            "toc": "content/get-started/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "github",
+                            "name": "GitHub.com",
+                            "href": "/github",
+                            "dir": "content/github",
+                            "toc": "content/github/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "admin",
+                            "name": "Enterprise administrators",
+                            "href": "/enterprise-server@3.1/admin",
+                            "dir": "content/admin",
+                            "toc": "content/admin/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "billing",
+                            "name": "Billing and payments",
+                            "href": "/billing",
+                            "dir": "content/billing",
+                            "toc": "content/billing/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "organizations",
+                            "name": "Organizations",
+                            "href": "/organizations",
+                            "dir": "content/organizations",
+                            "toc": "content/organizations/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "code-security",
+                            "name": "Code security",
+                            "href": "/code-security",
+                            "dir": "content/code-security",
+                            "toc": "content/code-security/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "github-ae@latest"]
+                        }, {
+                            "id": "issues",
+                            "name": "GitHub Issues",
+                            "href": "/issues",
+                            "dir": "content/issues",
+                            "toc": "content/issues/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "actions",
+                            "name": "GitHub Actions",
+                            "href": "/actions",
+                            "dir": "content/actions",
+                            "toc": "content/actions/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "github-ae@latest"]
+                        }, {
+                            "id": "packages",
+                            "name": "GitHub Packages",
+                            "href": "/packages",
+                            "dir": "content/packages",
+                            "toc": "content/packages/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "github-ae@latest"]
+                        }, {
+                            "id": "developers",
+                            "name": "Developers",
+                            "href": "/developers",
+                            "dir": "content/developers",
+                            "toc": "content/developers/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "rest",
+                            "name": "REST API",
+                            "href": "/rest",
+                            "dir": "content/rest",
+                            "toc": "content/rest/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "graphql",
+                            "name": "GraphQL API",
+                            "href": "/graphql",
+                            "dir": "content/graphql",
+                            "toc": "content/graphql/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "insights",
+                            "name": "GitHub Insights",
+                            "href": "/enterprise-server@3.1/insights",
+                            "dir": "content/insights",
+                            "toc": "content/insights/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21"]
+                        }, {
+                            "id": "discussions",
+                            "name": "GitHub Discussions",
+                            "href": "/discussions",
+                            "dir": "content/discussions",
+                            "toc": "content/discussions/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "codespaces",
+                            "name": "GitHub Codespaces",
+                            "href": "/codespaces",
+                            "dir": "content/codespaces",
+                            "toc": "content/codespaces/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "sponsors",
+                            "name": "GitHub Sponsors",
+                            "href": "/sponsors",
+                            "dir": "content/sponsors",
+                            "toc": "content/sponsors/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "communities",
+                            "name": "Building communities",
+                            "href": "/communities",
+                            "dir": "content/communities",
+                            "toc": "content/communities/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "pages",
+                            "name": "GitHub Pages",
+                            "href": "/pages",
+                            "dir": "content/pages",
+                            "toc": "content/pages/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest", "enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21", "github-ae@latest"]
+                        }, {
+                            "id": "education",
+                            "name": "Education",
+                            "href": "/education",
+                            "dir": "content/education",
+                            "toc": "content/education/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "desktop",
+                            "name": "GitHub Desktop",
+                            "href": "/desktop",
+                            "dir": "content/desktop",
+                            "toc": "content/desktop/index.md",
+                            "wip": false,
+                            "hidden": false,
+                            "versions": ["free-pro-team@latest"]
+                        }, {
+                            "id": "cli",
+                            "name": "GitHub CLI",
+                            "href": "https://cli.github.com/manual",
+                            "external": true
+                        }, {
+                            "id": "atom",
+                            "name": "Atom",
+                            "href": "https://atom.io/docs",
+                            "external": true
+                        }, {
+                            "id": "electron",
+                            "name": "Electron",
+                            "href": "https://electronjs.org/docs",
+                            "external": true
+                        }, {
+                            "id": "codeql",
+                            "name": "CodeQL",
+                            "href": "https://codeql.github.com/docs",
+                            "external": true
+                        }],
+                        "currentProduct": null,
+                        "currentLayoutName": "default",
+                        "isHomepageVersion": true,
+                        "isFPT": true,
+                        "error": "",
+                        "data": {
+                            "ui": {
+                                "header": {
+                                    "github_docs": "GitHub Docs",
+                                    "contact": "Contato",
+                                    "notices": {
+                                        "ghae_silent_launch": "O GitHub AE está atualmente sob versão limitada. \u003ca href=\"https://enterprise.github.com/contact\"\u003eEntre em contato com nossa Equipe de Vendas\u003c/a\u003e para saber mais.",
+                                        "release_candidate": "# O nome da versão é interpretado antes do texto abaixo por meio de includes/header-notification.html' está atualmente disponível como candidato da versão. Para obter mais informações, consulte \"\u003ca href=\"/admin/overview/about-upgrades-to-new-releases\"\u003eSobre atualizações para novas versões\u003c/a\u003e.\"'",
+                                        "localization_complete": "Publicamos atualizações frequentes em nossa documentação, e a tradução desta página ainda pode estar em andamento. Para obter as informações mais recentes, acesse a \u003ca id=\"to-english-doc\" href=\"/en\"\u003edocumentação em inglês\u003c/a\u003e. Se houver problemas com a tradução desta página, \u003ca href=\"https://github.com/contact?form[subject]=translation%20issue%20on%20docs.github.com\u0026form[comments]=\"\u003eentre em contato conosco\u003c/a\u003e.",
+                                        "localization_in_progress": "Olá! No momento, esta página ainda está sendo desenvolvida ou traduzida. Para obter as informações mais recentes, acesse a \u003ca id=\"to-english-doc\" href=\"/en\"\u003edocumentação em inglês\u003c/a\u003e.",
+                                        "early_access": "📣 \u003cb\u003eNão compartilhe\u003c/b\u003e esta URL publicamente. Esta página contém conteúdo sobre um recurso de acesso antecipado.",
+                                        "release_notes_use_latest": "Please use the latest release for the latest security, performance, and bug fixes.",
+                                        "ghes_release_notes_upgrade_patch_only": "📣 This is not the \u003ca href=\"#{{ latestPatch }}\"\u003elatest patch release\u003c/a\u003e of Enterprise Server.",
+                                        "ghes_release_notes_upgrade_release_only": "📣 This is not the \u003ca href=\"/enterprise-server@{{ latestRelease }}/admin/release-notes\"\u003elatest release\u003c/a\u003e of Enterprise Server.",
+                                        "ghes_release_notes_upgrade_patch_and_release": "📣 This is not the \u003ca href=\"#{{ latestPatch }}\"\u003elatest patch release\u003c/a\u003e of this release series, and this is not the \u003ca href=\"/enterprise-server@{{ latestRelease }}/admin/release-notes\"\u003elatest release\u003c/a\u003e of Enterprise Server."
+                                    }
+                                },
+                                "release_notes": {
+                                    "banner_text_current": "These changes will roll out over the next one week.",
+                                    "banner_text_past": "These changes rolled out to enterprises during the week of"
+                                },
+                                "search": {
+                                    "need_help": "Precisa de ajuda?",
+                                    "placeholder": "Pesquisar tópicos, produtos..."
+                                },
+                                "homepage": {
+                                    "explore_by_product": "Explorar por produto",
+                                    "version_picker": "Versão"
+                                },
+                                "toc": {
+                                    "getting_started": "Introdução",
+                                    "popular": "Popular",
+                                    "guides": "Guias",
+                                    "whats_new": "O que há de novo"
+                                },
+                                "pages": {
+                                    "article_version": "Versão do artigo:",
+                                    "miniToc": "Neste artigo",
+                                    "contributor_callout": "This article is contributed and maintained by"
+                                },
+                                "errors": {
+                                    "oops": "Ops!",
+                                    "something_went_wrong": "Parece que algo deu errado.",
+                                    "we_track_errors": "Monitoramos esses erros automaticamente, mas não deixe entrar em contato conosco se o problema persistir.",
+                                    "page_doesnt_exist": "Parece que a página não existe."
+                                },
+                                "support": {
+                                    "still_need_help": "Ainda precisa de ajuda?",
+                                    "contact_support": "Entrar em contato com o suporte",
+                                    "ask_community": "Pergunte à comunidade do GitHub"
+                                },
+                                "survey": {
+                                    "able_to_find": "Esse documento ajudou você?",
+                                    "yes": true,
+                                    "no": "No",
+                                    "yes_feedback": "We're continually improving our docs. We'd love to hear what we do well.",
+                                    "no_feedback": "Estamos constantemente melhorando nossos documentos. Adoraríamos ouvir como podemos melhorar.",
+                                    "comment_yes_label": "Let us know what we do well",
+                                    "comment_no_label": "Conte-nos como podemos melhorar",
+                                    "optional": "Opcional",
+                                    "required": "Obrigatório",
+                                    "email_placeholder": "email@example.com",
+                                    "email_label": "Podemos entrar em contato com você em caso de dúvidas?",
+                                    "send": "Enviar",
+                                    "feedback": "Thank you! We received your feedback.",
+                                    "not_support": "If you need a reply, please contact support instead.",
+                                    "privacy_policy": "Política de Privacidade"
+                                },
+                                "contribution_cta": {
+                                    "title": "Ajude-nos a tornar esses documentos ótimos!",
+                                    "body": "Todos os documentos do GitHub são de código aberto. Você percebeu que algo que está errado ou não está claro? Envie um pull request.",
+                                    "button": "Faça uma contribuição",
+                                    "or": "Ou,",
+                                    "to_guidelines": "aprenda como contribuir."
+                                },
+                                "products": {
+                                    "graphql": {
+                                        "reference": {
+                                            "fields": "Campos",
+                                            "arguments": "Argumentos",
+                                            "name": "Nome",
+                                            "type": "Tipo",
+                                            "description": "Descrição",
+                                            "input_fields": "Campos de entrada",
+                                            "return_fields": "Campos de retorno",
+                                            "implemented_by": "Implementado por",
+                                            "values": "Valores",
+                                            "possible_types": "Tipos possíveis",
+                                            "preview_notice": "Aviso de pré-visualização",
+                                            "deprecation_notice": "Aviso de descontinuação"
+                                        }
+                                    },
+                                    "rest": {
+                                        "reference": {
+                                            "parameters": "Parâmetros",
+                                            "response": "Resposta",
+                                            "code_sample": "Amostra de código",
+                                            "code_samples": "Amostras de código",
+                                            "preview_notice": "Aviso de pré-visualização",
+                                            "preview_notices": "Avisos de pré-visualização",
+                                            "see_preview_notice": "Ver aviso de pré-visualização",
+                                            "see_preview_notices": "Ver avisos de pré-visualização",
+                                            "preview_header_is_required": "Este cabeçalho é \u003cstrong\u003eobrigatório\u003c/strong\u003e"
+                                        }
+                                    }
+                                },
+                                "footer": {
+                                    "all_rights_reserved": "Todos os direitos reservados",
+                                    "terms": "Termos",
+                                    "privacy": "Privacidade",
+                                    "security": "Segurança",
+                                    "product": {
+                                        "heading": "Produto",
+                                        "links": {
+                                            "features": "Funcionalidades",
+                                            "security": "Segurança",
+                                            "enterprise": "Enterprise",
+                                            "case_studies": "Estudos de caso",
+                                            "pricing": "Preços",
+                                            "resources": "Recursos"
+                                        }
+                                    },
+                                    "platform": {
+                                        "heading": "Plataforma",
+                                        "links": {
+                                            "developer_api": "API de desenvolvedor",
+                                            "partners": "Parceiros",
+                                            "atom": "Atom",
+                                            "electron": "Electron",
+                                            "github_desktop": "GitHub Desktop"
+                                        }
+                                    },
+                                    "support": {
+                                        "heading": "Suporte",
+                                        "links": {
+                                            "help": "Ajuda",
+                                            "community_forum": "Fórum da comunidade",
+                                            "training": "Treinamentos",
+                                            "status": "Status",
+                                            "contact_github": "Contato com a GitHub"
+                                        }
+                                    },
+                                    "company": {
+                                        "heading": "Empresa",
+                                        "links": {
+                                            "about": "Sobre",
+                                            "blog": "Blog",
+                                            "careers": "Carreiras",
+                                            "press": "Imprensa",
+                                            "shop": "Loja"
+                                        }
+                                    }
+                                },
+                                "product_landing": {
+                                    "quickstart": "QuickStart",
+                                    "reference": "Referência",
+                                    "overview": "Visão Geral",
+                                    "guides": "Guias",
+                                    "code_examples": "Exemplos de códigos",
+                                    "search_code_examples": "Exemplos de código de pesquisa",
+                                    "show_more": "Show more",
+                                    "explore_people_and_projects": "Explore people and projects",
+                                    "sorry": "Desculpe, não há resultados para",
+                                    "no_example": "It looks like we don't have an example that fits your filter.",
+                                    "try_another": "Try another filter or add your code example.",
+                                    "no_result": "Desculpe, não há nenhum guia que corresponda ao seu filtro.",
+                                    "learn": "Learn how to add a code example",
+                                    "communities_using_discussions": "Comunidades que usam discussões",
+                                    "add_your_community": "Add your community",
+                                    "sponsor_community": "GitHub Sponsors community",
+                                    "supported_releases": "Supported releases",
+                                    "release_notes_for": "Release notes for",
+                                    "upgrade_from": "Upgrade from",
+                                    "browse_all_docs": "Browse all docs",
+                                    "explore_release_notes": "Explore release notes"
+                                },
+                                "product_sublanding": {
+                                    "start": "Início",
+                                    "start_path": "Caminho de início",
+                                    "learning_paths": "{{ productMap[currentProduct].name }} learning paths",
+                                    "learning_paths_desc": "Os caminhos de aprendizado são uma coleção de guias que ajudam você a dominar um assunto específico.",
+                                    "guides": "{{ productMap[currentProduct].name }} guides",
+                                    "more_guides": "mais guias",
+                                    "no_result": "Sorry, there are no guides that match your filter.",
+                                    "load_more": "Carregar mais guias",
+                                    "all_guides": "All {{ productMap[currentProduct].name }} guides",
+                                    "filters": {
+                                        "type": "Tipo",
+                                        "topic": "Tópico",
+                                        "all": "Todas"
+                                    },
+                                    "guide_types": {
+                                        "overview": "Visão Geral",
+                                        "quick_start": "QuickStart",
+                                        "tutorial": "Tutorial",
+                                        "how_to": "Guia prático",
+                                        "reference": "Referência"
+                                    }
+                                },
+                                "learning_track_nav": {
+                                    "prevGuide": "Guia anterior",
+                                    "nextGuide": "Próximo guia"
+                                },
+                                "toggle_images": {
+                                    "off": "Images are off, click to show",
+                                    "on": "Images are on, click to hide",
+                                    "hide_single": "Hide image",
+                                    "show_single": "Show image"
+                                },
+                                "scroll_button": {
+                                    "scroll_to_top": "Scroll to top"
+                                }
+                            },
+                            "reusables": {
+                                "enterprise_deprecation": {
+                                    "deprecation_details": "Nenhum lançamento de patch será feito, mesmo para questões críticas de segurança. Para obter melhor desempenho, melhorar a segurança e novos recursos, \u003ca href=\"/enterprise/admin/guides/installation/upgrading-github-enterprise/\"\u003eupgrade to the latest version of GitHub Enterprise\u003c/a\u003e. Para ajuda com a atualização, \u003ca href=\"https://enterprise.github.com/support\"\u003econtact GitHub Enterprise support\u003c/a\u003e.",
+                                    "version_was_deprecated": "Esta versão do GitHub Enterprise foi descontinuada em",
+                                    "version_will_be_deprecated": "Esta versão do GitHub Enterprise será descontinuada em"
+                                },
+                                "policies": {
+                                    "abuse": "{% data variables.product.prodname_dotcom %} não tolera abuso.{% if currentVersion == \"free-pro-team@latest\" %} Para obter mais informações sobre as políticas de {% data variables.product.prodname_dotcom %}veja nossos [Termos de Serviço](/articles/github-terms-of-service) e [Diretrizes da Comunidade](/articles/github-community-guidelines).{% endif %}",
+                                    "github-community-guidelines-and-terms": "{% data variables.product.company_short %} fornece como parâmetro um código de conduta para todos que usam {% data variables.product.prodname_dotcom_the_website %}. Para mais informações, veja os \"[{% data variables.product.company_short %} Termos de Serviço](/github/site-policy/github-terms-of-service)\" e \"[{% data variables.product.company_short %} as Diretrizes da Comunidade](/github/site-policy/github-community-guidelines).\"",
+                                    "translation": "Este documento está traduzido do inglês. Em caso de qualquer conflito, incerteza ou aparente incoerência entre quaisquer versões traduzidas e o texto original em inglês, o documento em inglês prevalecerá.\n\nSe você tem sugestões para aprimorar nossa tradução, por favor, \u003ca href=\"https://github.com/github/site-policy/issues\"\u003eabra um problema em nosso repositório site-policy\u003c/a\u003e."
+                                }
+                            },
+                            "variables": {
+                                "release_candidate": {
+                                    "version": ""
+                                }
+                            }
+                        },
+                        "airGap": false,
+                        "currentCategory": "",
+                        "currentPathWithoutLanguage": "/",
+                        "relativePath": "index.md",
+                        "page": {
+                            "languageVariants": [{
+                                "name": "English",
+                                "code": "en",
+                                "hreflang": "en",
+                                "href": "/en"
+                            }, {
+                                "name": "Simplified Chinese",
+                                "code": "cn",
+                                "hreflang": "zh-Hans",
+                                "href": "/cn"
+                            }, {
+                                "name": "Japanese",
+                                "code": "ja",
+                                "hreflang": "ja",
+                                "href": "/ja"
+                            }, {
+                                "name": "Spanish",
+                                "code": "es",
+                                "hreflang": "es",
+                                "href": "/es"
+                            }, {
+                                "name": "Portuguese",
+                                "code": "pt",
+                                "hreflang": "pt",
+                                "href": "/pt"
+                            }, {
+                                "name": "German",
+                                "code": "de",
+                                "hreflang": "de",
+                                "href": "/de"
+                            }],
+                            "documentType": "homepage",
+                            "title": "GitHub.com Documentação de ajuda",
+                            "fullTitle": "GitHub.com Documentação de ajuda",
+                            "topics": [],
+                            "introPlainText": "",
+                            "permalinks": [{
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "GitHub.com",
+                                "pageVersion": "free-pro-team@latest",
+                                "href": "/pt",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }, {
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "Enterprise Server 3.1",
+                                "pageVersion": "enterprise-server@3.1",
+                                "href": "/pt/enterprise-server@3.1",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }, {
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "Enterprise Server 3.0",
+                                "pageVersion": "enterprise-server@3.0",
+                                "href": "/pt/enterprise-server@3.0",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }, {
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "Enterprise Server 2.22",
+                                "pageVersion": "enterprise-server@2.22",
+                                "href": "/pt/enterprise-server@2.22",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }, {
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "Enterprise Server 2.21",
+                                "pageVersion": "enterprise-server@2.21",
+                                "href": "/pt/enterprise-server@2.21",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }, {
+                                "title": "{% data variables.product.product_name %}{% if currentVersion == \"free-pro-team@latest\" %}.com{% endif %} Documentação de ajuda",
+                                "pageVersionTitle": "GitHub AE",
+                                "pageVersion": "github-ae@latest",
+                                "href": "/pt/github-ae@latest",
+                                "relativePath": "index.md",
+                                "languageCode": "pt"
+                            }],
+                            "hidden": false
+                        },
+                        "enterpriseServerReleases": {
+                            "isOldestReleaseDeprecated": true,
+                            "oldestSupported": "2.21",
+                            "nextDeprecationDate": "2021-06-09",
+                            "supported": ["3.1", "3.0", "2.22", "2.21"]
+                        },
+                        "enterpriseServerVersions": ["enterprise-server@3.1", "enterprise-server@3.0", "enterprise-server@2.22", "enterprise-server@2.21"],
+                        "currentLanguage": "pt",
+                        "userLanguage": "pt",
+                        "languages": {
+                            "en": {
+                                "name": "English",
+                                "nativeName": "",
+                                "code": "en",
+                                "hreflang": "en",
+                                "wip": false
+                            },
+                            "cn": {
+                                "name": "Simplified Chinese",
+                                "nativeName": "简体中文",
+                                "code": "cn",
+                                "hreflang": "zh-Hans",
+                                "wip": false
+                            },
+                            "ja": {
+                                "name": "Japanese",
+                                "nativeName": "日本語",
+                                "code": "ja",
+                                "hreflang": "ja",
+                                "wip": false
+                            },
+                            "es": {
+                                "name": "Spanish",
+                                "nativeName": "Español",
+                                "code": "es",
+                                "hreflang": "es",
+                                "wip": false
+                            },
+                            "pt": {
+                                "name": "Portuguese",
+                                "nativeName": "Português do Brasil",
+                                "code": "pt",
+                                "hreflang": "pt",
+                                "wip": false
+                            },
+                            "de": {
+                                "name": "German",
+                                "nativeName": "Deutsch",
+                                "code": "de",
+                                "hreflang": "de",
+                                "wip": true
+                            }
+                        },
+                        "allVersions": {
+                            "free-pro-team@latest": {
+                                "version": "free-pro-team@latest",
+                                "versionTitle": "GitHub.com",
+                                "latestVersion": "free-pro-team@latest",
+                                "currentRelease": "latest",
+                                "openApiVersionName": "api.github.com",
+                                "miscVersionName": "dotcom",
+                                "plan": "free-pro-team",
+                                "planTitle": "GitHub.com",
+                                "shortName": "fpt",
+                                "releases": ["latest"],
+                                "latestRelease": "latest",
+                                "nonEnterpriseDefault": true,
+                                "openApiBaseName": "api.github.com",
+                                "miscBaseName": "dotcom"
+                            },
+                            "enterprise-server@3.1": {
+                                "version": "enterprise-server@3.1",
+                                "versionTitle": "Enterprise Server 3.1",
+                                "latestVersion": "enterprise-server@3.1",
+                                "currentRelease": "3.1",
+                                "openApiVersionName": "ghes-3.1",
+                                "miscVersionName": "ghes-3.1",
+                                "plan": "enterprise-server",
+                                "planTitle": "Enterprise Server",
+                                "shortName": "ghes",
+                                "releases": ["3.1", "3.0", "2.22", "2.21"],
+                                "latestRelease": "3.1",
+                                "hasNumberedReleases": true,
+                                "openApiBaseName": "ghes-",
+                                "miscBaseName": "ghes-"
+                            },
+                            "enterprise-server@3.0": {
+                                "version": "enterprise-server@3.0",
+                                "versionTitle": "Enterprise Server 3.0",
+                                "latestVersion": "enterprise-server@3.1",
+                                "currentRelease": "3.0",
+                                "openApiVersionName": "ghes-3.0",
+                                "miscVersionName": "ghes-3.0",
+                                "plan": "enterprise-server",
+                                "planTitle": "Enterprise Server",
+                                "shortName": "ghes",
+                                "releases": ["3.1", "3.0", "2.22", "2.21"],
+                                "latestRelease": "3.1",
+                                "hasNumberedReleases": true,
+                                "openApiBaseName": "ghes-",
+                                "miscBaseName": "ghes-"
+                            },
+                            "enterprise-server@2.22": {
+                                "version": "enterprise-server@2.22",
+                                "versionTitle": "Enterprise Server 2.22",
+                                "latestVersion": "enterprise-server@3.1",
+                                "currentRelease": "2.22",
+                                "openApiVersionName": "ghes-2.22",
+                                "miscVersionName": "ghes-2.22",
+                                "plan": "enterprise-server",
+                                "planTitle": "Enterprise Server",
+                                "shortName": "ghes",
+                                "releases": ["3.1", "3.0", "2.22", "2.21"],
+                                "latestRelease": "3.1",
+                                "hasNumberedReleases": true,
+                                "openApiBaseName": "ghes-",
+                                "miscBaseName": "ghes-"
+                            },
+                            "enterprise-server@2.21": {
+                                "version": "enterprise-server@2.21",
+                                "versionTitle": "Enterprise Server 2.21",
+                                "latestVersion": "enterprise-server@3.1",
+                                "currentRelease": "2.21",
+                                "openApiVersionName": "ghes-2.21",
+                                "miscVersionName": "ghes-2.21",
+                                "plan": "enterprise-server",
+                                "planTitle": "Enterprise Server",
+                                "shortName": "ghes",
+                                "releases": ["3.1", "3.0", "2.22", "2.21"],
+                                "latestRelease": "3.1",
+                                "hasNumberedReleases": true,
+                                "openApiBaseName": "ghes-",
+                                "miscBaseName": "ghes-"
+                            },
+                            "github-ae@latest": {
+                                "version": "github-ae@latest",
+                                "versionTitle": "GitHub AE",
+                                "latestVersion": "github-ae@latest",
+                                "currentRelease": "latest",
+                                "openApiVersionName": "github.ae",
+                                "miscVersionName": "ghae",
+                                "plan": "github-ae",
+                                "planTitle": "GitHub AE",
+                                "shortName": "ghae",
+                                "releases": ["latest"],
+                                "latestRelease": "latest",
+                                "openApiBaseName": "github.ae",
+                                "miscBaseName": "ghae"
+                            }
+                        },
+                        "currentProductTree": null,
+                        "featureFlags": {},
+                        "searchVersions": {
+                            "free-pro-team@latest": "dotcom",
+                            "enterprise-server@3.1": "3.1",
+                            "enterprise-server@3.0": "3.0",
+                            "enterprise-server@2.22": "2.22",
+                            "enterprise-server@2.21": "2.21",
+                            "github-ae@latest": "ghae"
+                        },
+                        "nonEnterpriseDefaultVersion": "free-pro-team@latest"
+                    },
+                    "gettingStartedLinks": [{
+                        "title": "Configurar o Git",
+                        "href": "/pt/github/getting-started-with-github/set-up-git",
+                        "intro": "No centro do GitHub há um sistema de controle de versões (VCS) de código aberto chamado Git. O Git é responsável por tudo relacionado ao GitHub que acontece localmente no computador."
+                    }, {
+                        "title": "Conectar-se ao GitHub com SSH",
+                        "href": "/pt/github/authenticating-to-github/connecting-to-github-with-ssh",
+                        "intro": "Você pode se conectar ao GitHub usando SSH."
+                    }, {
+                        "title": "Criar um repositório no GitHub",
+                        "href": "/pt/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github",
+                        "intro": "Depois de criar o repositório no GitHub, você poderá personalizar as configurações e o conteúdo dele."
+                    }, {
+                        "title": "Sintaxe básica de escrita e formatação no GitHub",
+                        "href": "/pt/github/writing-on-github/basic-writing-and-formatting-syntax",
+                        "intro": "Crie formatação sofisticada para narração e código no GitHub com sintaxe simples."
+                    }],
+                    "popularLinks": [{
+                        "title": "Sobre pull requests",
+                        "href": "/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests",
+                        "intro": "As pull requests permitem que você informe outras pessoas sobre as alterações das quais você fez push para um branch em um repositório no GitHub. Depois que uma pull request é aberta, você pode discutir e revisar as possíveis alterações com colaboradores e adicionar commits de acompanhamento antes que as alterações sofram merge no branch base."
+                    }, {
+                        "title": "Autenticação",
+                        "href": "/pt/github/authenticating-to-github",
+                        "intro": "Mantenha sua conta e dados protegidos com recursos como autenticação de dois fatores, SSH, e verificação de assinatura do commit."
+                    }, {
+                        "title": "Adicionar um projeto existente ao GitHub usando a linha de comando",
+                        "href": "/pt/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line",
+                        "intro": "Colocar um trabalho que já existe no GitHub pode permitir que você compartilhe e colabore de muitas maneiras."
+                    }, {
+                        "title": "Gerenciar repositórios remotos",
+                        "href": "/pt/github/getting-started-with-github/managing-remote-repositories",
+                        "intro": "Aprenda a trabalhar com seus repositórios locais no seu computador e repositórios remotos hospedados no GitHub."
+                    }, {
+                        "title": "GitHub Pages",
+                        "href": "/pt/github/working-with-github-pages",
+                        "intro": "Você pode criar um site diretamente de um repositório do GitHub."
+                    }]
+                },
+                "themeProps": {
+                    "colorMode": "night",
+                    "nightScheme": "dark_high_contrast",
+                    "dayScheme": "light"
+                },
+                "csrfToken": "IxBOWJji-ERqugnewUpuaZ5aX2Mxf15oSnCM",
+                "__N_SSP": true
+            },
+            "page": "/",
+            "query": {},
+            "buildId": "hDw6HseYpO5jxN3-dIsJT",
+            "isFallback": false,
+            "gssp": true,
+            "customServer": true,
+            "appGip": true,
+            "locale": "pt",
+            "locales": ["en", "cn", "ja", "es", "pt", "de"],
+            "defaultLocale": "en",
+            "scriptLoader": []
+        }
+    </script>
+</body>
+
+</html>
